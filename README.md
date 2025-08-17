@@ -1,2 +1,3 @@
-# triggaz
-Editor for MIDI note/cc pattern detection that triggers other MIDI notes/cc, OSC and Ableton Mapped parameters
+# Triggaz
+
+This is the Triggaz MIDI Arpeggiator Editor app, split for submodule use.
