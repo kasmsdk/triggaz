@@ -1,5 +1,6 @@
 import React from 'react';
 import MidiSelector from '../components/MidiSelector';
+import EmanatorCanvas from "../components/EmanatorCanvas.tsx";
 
 const Triggaz: React.FC = () => {
     return (
@@ -18,6 +19,13 @@ const Triggaz: React.FC = () => {
                     <MidiSelector />
                 </p>
             </div>
+
+            <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', margin: '40px 0' }}>
+                <EmanatorCanvas title="Triggaz 1" />
+                <EmanatorCanvas title="Triggaz 2" />
+                <EmanatorCanvas title="Triggaz 3" />
+            </div>
+
         </div>
     );
 };
