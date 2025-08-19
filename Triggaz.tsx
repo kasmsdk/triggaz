@@ -3,7 +3,7 @@ import MidiSelector from '../components/MidiSelector';
 
 const Triggaz: React.FC = () => {
     return (
-        <div style={{ padding: '2em' }}>
+        <div className="kasm-landing-container">
             <h1>Triggaz midi note/cc pattern detection tool</h1>
             <p className="sunken-paragraph">
                 Triggaz are a bit like Emanators in reverse, they look for patterns in the live performance and when a
