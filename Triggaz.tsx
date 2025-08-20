@@ -1,6 +1,7 @@
 import React from 'react';
 import MidiSelector from '../latest/MidiSelector';
 import EmanatorCanvas from "../latest/EmanatorCanvas.tsx";
+import LatestDemo from "../src/components/LatestDemo.tsx";
 
 const Triggaz: React.FC = () => {
     return (
@@ -10,6 +11,9 @@ const Triggaz: React.FC = () => {
                 Triggaz are a bit like Emanators in reverse, they look for patterns in the live performance and when a
                 close enough match has been made it triggers an emanator, or a MIDI CC event or Ableton Live mapped
                 parameter and so on</p>
+
+            <LatestDemo />
+
             <p>
                 Triggaz detection pattern browser/gallery and web based pattern learning tools are coming here soon...</p>
 
