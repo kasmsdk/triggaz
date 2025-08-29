@@ -26,7 +26,7 @@ const Triggaz: React.FC = () => {
                         document.body.removeChild(link);
                     }}
                 >
-                    ⬇️<br/>Kasm Triggaz.amxd
+                    ⬇️<br/>Triggaz .amxd
                 </button>
             </div>
             <LatestDemo />
