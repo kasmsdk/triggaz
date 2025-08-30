@@ -15,7 +15,7 @@ const Triggaz: React.FC = () => {
                 Demo: Try playing Twinkle Twinkle little Star, Three blind Mice, Merrily we Roll Along...</p>
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', margin: '16px 0' }}>
                 <button
-                    className="kasm-demo-btn"
+                    className="kasm-demo-btn-download"
                     title="Download Triggaz as Ableton Live 12.2 M4L device"
                     onClick={() => {
                         const link = document.createElement('a');
